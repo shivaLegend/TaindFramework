@@ -10,9 +10,12 @@ import XCTest
 @testable import TaindFramework
 
 class TaindFrameworkTests: XCTestCase {
+    
+    var taindFramework: TaindFramework!
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        taindFramework = TaindFramework()
     }
 
     override func tearDown() {
@@ -29,6 +32,13 @@ class TaindFrameworkTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    func testAdd() {
+        XCTAssertEqual(taindFramework.add(a: 1, b: 1), 2)
+    }
+    
+    func testSub() {
+        XCTAssertEqual(taindFramework.sub(a: 2, b: 1), 1)
     }
 
 }

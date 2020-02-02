@@ -3,13 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3B48812EFF7E413970D5230D /* Pods_TaindFramework_TaindFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C102F9C8968D314FA0DF4C /* Pods_TaindFramework_TaindFrameworkTests.framework */; };
 		9C566BF975604B158331DC98 /* Pods_TaindFrameworkExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5220CF7A8101F0FDB7B9756 /* Pods_TaindFrameworkExamples.framework */; };
 		AFD6601FC08DA53340FCE648 /* Pods_TaindFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB9F8B1B94DBDFC6AB8226D /* Pods_TaindFramework.framework */; };
+		D64F28D223E734FA009AED2E /* TaindFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F28D123E734FA009AED2E /* TaindFramework.swift */; };
+		D64F28D323E734FA009AED2E /* TaindFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F28D123E734FA009AED2E /* TaindFramework.swift */; };
 		D6E12AC523E6D16E009BE140 /* TaindFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E12ABB23E6D16E009BE140 /* TaindFramework.framework */; };
 		D6E12ACA23E6D16E009BE140 /* TaindFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E12AC923E6D16E009BE140 /* TaindFrameworkTests.swift */; };
 		D6E12ACC23E6D16E009BE140 /* TaindFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E12ABE23E6D16E009BE140 /* TaindFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,6 +42,7 @@
 		50C71123F15CE33439328F7D /* Pods-TaindFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaindFramework.debug.xcconfig"; path = "Target Support Files/Pods-TaindFramework/Pods-TaindFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		74E3472E9DFD3A7BFA04214F /* Pods-TaindFrameworkExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaindFrameworkExamples.debug.xcconfig"; path = "Target Support Files/Pods-TaindFrameworkExamples/Pods-TaindFrameworkExamples.debug.xcconfig"; sourceTree = "<group>"; };
 		BA0A5CA4D49A0693A9B043FD /* Pods-TaindFramework-TaindFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaindFramework-TaindFrameworkTests.release.xcconfig"; path = "Target Support Files/Pods-TaindFramework-TaindFrameworkTests/Pods-TaindFramework-TaindFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		D64F28D123E734FA009AED2E /* TaindFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaindFramework.swift; sourceTree = "<group>"; };
 		D6E12ABB23E6D16E009BE140 /* TaindFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TaindFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E12ABE23E6D16E009BE140 /* TaindFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaindFramework.h; sourceTree = "<group>"; };
 		D6E12ABF23E6D16E009BE140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -112,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				D6E12ABE23E6D16E009BE140 /* TaindFramework.h */,
+				D64F28D123E734FA009AED2E /* TaindFramework.swift */,
 				D6E12ABF23E6D16E009BE140 /* Info.plist */,
 			);
 			path = TaindFramework;
@@ -150,7 +154,6 @@
 				74E3472E9DFD3A7BFA04214F /* Pods-TaindFrameworkExamples.debug.xcconfig */,
 				4BCDF26F8C8E60CF1E90EA6C /* Pods-TaindFrameworkExamples.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +251,7 @@
 				TargetAttributes = {
 					D6E12ABA23E6D16E009BE140 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					D6E12AC323E6D16E009BE140 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -412,6 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64F28D223E734FA009AED2E /* TaindFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +433,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6E12AE023E6D23A009BE140 /* ViewController.swift in Sources */,
+				D64F28D323E734FA009AED2E /* TaindFramework.swift in Sources */,
 				D6E12ADC23E6D23A009BE140 /* AppDelegate.swift in Sources */,
 				D6E12ADE23E6D23A009BE140 /* SceneDelegate.swift in Sources */,
 			);
@@ -587,6 +593,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 50C71123F15CE33439328F7D /* Pods-TaindFramework.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = B24EEZ8S3G;
@@ -603,6 +610,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tainguyenduc.TaindFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -612,6 +620,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4EF2A8DA2F731EE06A7EF6A8 /* Pods-TaindFramework.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = B24EEZ8S3G;
@@ -637,6 +646,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 19FD6928FFA41995C77EA3EF /* Pods-TaindFramework-TaindFrameworkTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B24EEZ8S3G;
 				INFOPLIST_FILE = TaindFrameworkTests/Info.plist;
@@ -656,6 +666,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BA0A5CA4D49A0693A9B043FD /* Pods-TaindFramework-TaindFrameworkTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B24EEZ8S3G;
 				INFOPLIST_FILE = TaindFrameworkTests/Info.plist;
