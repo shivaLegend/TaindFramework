@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B48812EFF7E413970D5230D /* Pods_TaindFramework_TaindFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C102F9C8968D314FA0DF4C /* Pods_TaindFramework_TaindFrameworkTests.framework */; };
+		9C566BF975604B158331DC98 /* Pods_TaindFrameworkExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5220CF7A8101F0FDB7B9756 /* Pods_TaindFrameworkExamples.framework */; };
+		AFD6601FC08DA53340FCE648 /* Pods_TaindFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB9F8B1B94DBDFC6AB8226D /* Pods_TaindFramework.framework */; };
+		D6E12AC523E6D16E009BE140 /* TaindFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E12ABB23E6D16E009BE140 /* TaindFramework.framework */; };
+		D6E12ACA23E6D16E009BE140 /* TaindFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E12AC923E6D16E009BE140 /* TaindFrameworkTests.swift */; };
+		D6E12ACC23E6D16E009BE140 /* TaindFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E12ABE23E6D16E009BE140 /* TaindFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6E12ADC23E6D23A009BE140 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E12ADB23E6D23A009BE140 /* AppDelegate.swift */; };
+		D6E12ADE23E6D23A009BE140 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E12ADD23E6D23A009BE140 /* SceneDelegate.swift */; };
+		D6E12AE023E6D23A009BE140 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E12ADF23E6D23A009BE140 /* ViewController.swift */; };
+		D6E12AE323E6D23A009BE140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E12AE123E6D23A009BE140 /* Main.storyboard */; };
+		D6E12AE523E6D23B009BE140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E12AE423E6D23B009BE140 /* Assets.xcassets */; };
+		D6E12AE823E6D23B009BE140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E12AE623E6D23B009BE140 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6E12AC623E6D16E009BE140 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6E12AB223E6D16E009BE140 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6E12ABA23E6D16E009BE140;
+			remoteInfo = TaindFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AB9F8B1B94DBDFC6AB8226D /* Pods_TaindFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaindFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19FD6928FFA41995C77EA3EF /* Pods-TaindFramework-TaindFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaindFramework-TaindFrameworkTests.debug.xcconfig"; path = "Target Support Files/Pods-TaindFramework-TaindFrameworkTests/Pods-TaindFramework-TaindFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		41C102F9C8968D314FA0DF4C /* Pods_TaindFramework_TaindFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaindFramework_TaindFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCDF26F8C8E60CF1E90EA6C /* Pods-TaindFrameworkExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaindFrameworkExamples.release.xcconfig"; path = "Target Support Files/Pods-TaindFrameworkExamples/Pods-TaindFrameworkExamples.release.xcconfig"; sourceTree = "<group>"; };
+		4EF2A8DA2F731EE06A7EF6A8 /* Pods-TaindFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaindFramework.release.xcconfig"; path = "Target Support Files/Pods-TaindFramework/Pods-TaindFramework.release.xcconfig"; sourceTree = "<group>"; };
+		50C71123F15CE33439328F7D /* Pods-TaindFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaindFramework.debug.xcconfig"; path = "Target Support Files/Pods-TaindFramework/Pods-TaindFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		74E3472E9DFD3A7BFA04214F /* Pods-TaindFrameworkExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaindFrameworkExamples.debug.xcconfig"; path = "Target Support Files/Pods-TaindFrameworkExamples/Pods-TaindFrameworkExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		BA0A5CA4D49A0693A9B043FD /* Pods-TaindFramework-TaindFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaindFramework-TaindFrameworkTests.release.xcconfig"; path = "Target Support Files/Pods-TaindFramework-TaindFrameworkTests/Pods-TaindFramework-TaindFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6E12ABB23E6D16E009BE140 /* TaindFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TaindFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E12ABE23E6D16E009BE140 /* TaindFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaindFramework.h; sourceTree = "<group>"; };
+		D6E12ABF23E6D16E009BE140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E12AC423E6D16E009BE140 /* TaindFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaindFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E12AC923E6D16E009BE140 /* TaindFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaindFrameworkTests.swift; sourceTree = "<group>"; };
+		D6E12ACB23E6D16E009BE140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E12AD923E6D23A009BE140 /* TaindFrameworkExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaindFrameworkExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E12ADB23E6D23A009BE140 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6E12ADD23E6D23A009BE140 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D6E12ADF23E6D23A009BE140 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6E12AE223E6D23A009BE140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6E12AE423E6D23B009BE140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6E12AE723E6D23B009BE140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6E12AE923E6D23B009BE140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5220CF7A8101F0FDB7B9756 /* Pods_TaindFrameworkExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaindFrameworkExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6E12AB823E6D16E009BE140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD6601FC08DA53340FCE648 /* Pods_TaindFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E12AC123E6D16E009BE140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E12AC523E6D16E009BE140 /* TaindFramework.framework in Frameworks */,
+				3B48812EFF7E413970D5230D /* Pods_TaindFramework_TaindFrameworkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E12AD623E6D23A009BE140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C566BF975604B158331DC98 /* Pods_TaindFrameworkExamples.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6E12AB123E6D16E009BE140 = {
+			isa = PBXGroup;
+			children = (
+				D6E12ABD23E6D16E009BE140 /* TaindFramework */,
+				D6E12AC823E6D16E009BE140 /* TaindFrameworkTests */,
+				D6E12ADA23E6D23A009BE140 /* TaindFrameworkExamples */,
+				D6E12ABC23E6D16E009BE140 /* Products */,
+				D9B99D2103E7B90BBD367159 /* Pods */,
+				F508830298949F426957214F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6E12ABC23E6D16E009BE140 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6E12ABB23E6D16E009BE140 /* TaindFramework.framework */,
+				D6E12AC423E6D16E009BE140 /* TaindFrameworkTests.xctest */,
+				D6E12AD923E6D23A009BE140 /* TaindFrameworkExamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6E12ABD23E6D16E009BE140 /* TaindFramework */ = {
+			isa = PBXGroup;
+			children = (
+				D6E12ABE23E6D16E009BE140 /* TaindFramework.h */,
+				D6E12ABF23E6D16E009BE140 /* Info.plist */,
+			);
+			path = TaindFramework;
+			sourceTree = "<group>";
+		};
+		D6E12AC823E6D16E009BE140 /* TaindFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6E12AC923E6D16E009BE140 /* TaindFrameworkTests.swift */,
+				D6E12ACB23E6D16E009BE140 /* Info.plist */,
+			);
+			path = TaindFrameworkTests;
+			sourceTree = "<group>";
+		};
+		D6E12ADA23E6D23A009BE140 /* TaindFrameworkExamples */ = {
+			isa = PBXGroup;
+			children = (
+				D6E12ADB23E6D23A009BE140 /* AppDelegate.swift */,
+				D6E12ADD23E6D23A009BE140 /* SceneDelegate.swift */,
+				D6E12ADF23E6D23A009BE140 /* ViewController.swift */,
+				D6E12AE123E6D23A009BE140 /* Main.storyboard */,
+				D6E12AE423E6D23B009BE140 /* Assets.xcassets */,
+				D6E12AE623E6D23B009BE140 /* LaunchScreen.storyboard */,
+				D6E12AE923E6D23B009BE140 /* Info.plist */,
+			);
+			path = TaindFrameworkExamples;
+			sourceTree = "<group>";
+		};
+		D9B99D2103E7B90BBD367159 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50C71123F15CE33439328F7D /* Pods-TaindFramework.debug.xcconfig */,
+				4EF2A8DA2F731EE06A7EF6A8 /* Pods-TaindFramework.release.xcconfig */,
+				19FD6928FFA41995C77EA3EF /* Pods-TaindFramework-TaindFrameworkTests.debug.xcconfig */,
+				BA0A5CA4D49A0693A9B043FD /* Pods-TaindFramework-TaindFrameworkTests.release.xcconfig */,
+				74E3472E9DFD3A7BFA04214F /* Pods-TaindFrameworkExamples.debug.xcconfig */,
+				4BCDF26F8C8E60CF1E90EA6C /* Pods-TaindFrameworkExamples.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F508830298949F426957214F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AB9F8B1B94DBDFC6AB8226D /* Pods_TaindFramework.framework */,
+				41C102F9C8968D314FA0DF4C /* Pods_TaindFramework_TaindFrameworkTests.framework */,
+				F5220CF7A8101F0FDB7B9756 /* Pods_TaindFrameworkExamples.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D6E12AB623E6D16E009BE140 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E12ACC23E6D16E009BE140 /* TaindFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D6E12ABA23E6D16E009BE140 /* TaindFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E12ACF23E6D16E009BE140 /* Build configuration list for PBXNativeTarget "TaindFramework" */;
+			buildPhases = (
+				782DFE184D133E402C634075 /* [CP] Check Pods Manifest.lock */,
+				D6E12AB623E6D16E009BE140 /* Headers */,
+				D6E12AB723E6D16E009BE140 /* Sources */,
+				D6E12AB823E6D16E009BE140 /* Frameworks */,
+				D6E12AB923E6D16E009BE140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaindFramework;
+			productName = TaindFramework;
+			productReference = D6E12ABB23E6D16E009BE140 /* TaindFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6E12AC323E6D16E009BE140 /* TaindFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E12AD223E6D16E009BE140 /* Build configuration list for PBXNativeTarget "TaindFrameworkTests" */;
+			buildPhases = (
+				63A8ACD016B78DE9385F8E6A /* [CP] Check Pods Manifest.lock */,
+				D6E12AC023E6D16E009BE140 /* Sources */,
+				D6E12AC123E6D16E009BE140 /* Frameworks */,
+				D6E12AC223E6D16E009BE140 /* Resources */,
+				2AA566F129739F87610D13FF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6E12AC723E6D16E009BE140 /* PBXTargetDependency */,
+			);
+			name = TaindFrameworkTests;
+			productName = TaindFrameworkTests;
+			productReference = D6E12AC423E6D16E009BE140 /* TaindFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6E12AD823E6D23A009BE140 /* TaindFrameworkExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E12AEA23E6D23B009BE140 /* Build configuration list for PBXNativeTarget "TaindFrameworkExamples" */;
+			buildPhases = (
+				347AAFE863230356107E3E0B /* [CP] Check Pods Manifest.lock */,
+				D6E12AD523E6D23A009BE140 /* Sources */,
+				D6E12AD623E6D23A009BE140 /* Frameworks */,
+				D6E12AD723E6D23A009BE140 /* Resources */,
+				085AB26C6578D2857FB6E2F8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaindFrameworkExamples;
+			productName = TaindFrameworkExamples;
+			productReference = D6E12AD923E6D23A009BE140 /* TaindFrameworkExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6E12AB223E6D16E009BE140 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Tai Nguyen";
+				TargetAttributes = {
+					D6E12ABA23E6D16E009BE140 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D6E12AC323E6D16E009BE140 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D6E12AD823E6D23A009BE140 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D6E12AB523E6D16E009BE140 /* Build configuration list for PBXProject "TaindFramework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6E12AB123E6D16E009BE140;
+			productRefGroup = D6E12ABC23E6D16E009BE140 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6E12ABA23E6D16E009BE140 /* TaindFramework */,
+				D6E12AC323E6D16E009BE140 /* TaindFrameworkTests */,
+				D6E12AD823E6D23A009BE140 /* TaindFrameworkExamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6E12AB923E6D16E009BE140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E12AC223E6D16E009BE140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E12AD723E6D23A009BE140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E12AE823E6D23B009BE140 /* LaunchScreen.storyboard in Resources */,
+				D6E12AE523E6D23B009BE140 /* Assets.xcassets in Resources */,
+				D6E12AE323E6D23A009BE140 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		085AB26C6578D2857FB6E2F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaindFrameworkExamples/Pods-TaindFrameworkExamples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaindFrameworkExamples/Pods-TaindFrameworkExamples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaindFrameworkExamples/Pods-TaindFrameworkExamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AA566F129739F87610D13FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaindFramework-TaindFrameworkTests/Pods-TaindFramework-TaindFrameworkTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaindFramework-TaindFrameworkTests/Pods-TaindFramework-TaindFrameworkTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaindFramework-TaindFrameworkTests/Pods-TaindFramework-TaindFrameworkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		347AAFE863230356107E3E0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaindFrameworkExamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63A8ACD016B78DE9385F8E6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaindFramework-TaindFrameworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		782DFE184D133E402C634075 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaindFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6E12AB723E6D16E009BE140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E12AC023E6D16E009BE140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E12ACA23E6D16E009BE140 /* TaindFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E12AD523E6D23A009BE140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E12AE023E6D23A009BE140 /* ViewController.swift in Sources */,
+				D6E12ADC23E6D23A009BE140 /* AppDelegate.swift in Sources */,
+				D6E12ADE23E6D23A009BE140 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6E12AC723E6D16E009BE140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6E12ABA23E6D16E009BE140 /* TaindFramework */;
+			targetProxy = D6E12AC623E6D16E009BE140 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6E12AE123E6D23A009BE140 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6E12AE223E6D23A009BE140 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6E12AE623E6D23B009BE140 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6E12AE723E6D23B009BE140 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6E12ACD23E6D16E009BE140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6E12ACE23E6D16E009BE140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D6E12AD023E6D16E009BE140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50C71123F15CE33439328F7D /* Pods-TaindFramework.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = B24EEZ8S3G;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TaindFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tainguyenduc.TaindFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6E12AD123E6D16E009BE140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF2A8DA2F731EE06A7EF6A8 /* Pods-TaindFramework.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = B24EEZ8S3G;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TaindFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tainguyenduc.TaindFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6E12AD323E6D16E009BE140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19FD6928FFA41995C77EA3EF /* Pods-TaindFramework-TaindFrameworkTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B24EEZ8S3G;
+				INFOPLIST_FILE = TaindFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tainguyenduc.TaindFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6E12AD423E6D16E009BE140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA0A5CA4D49A0693A9B043FD /* Pods-TaindFramework-TaindFrameworkTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B24EEZ8S3G;
+				INFOPLIST_FILE = TaindFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tainguyenduc.TaindFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6E12AEB23E6D23B009BE140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74E3472E9DFD3A7BFA04214F /* Pods-TaindFrameworkExamples.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B24EEZ8S3G;
+				INFOPLIST_FILE = TaindFrameworkExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tainguyenduc.TaindFrameworkExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6E12AEC23E6D23B009BE140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BCDF26F8C8E60CF1E90EA6C /* Pods-TaindFrameworkExamples.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B24EEZ8S3G;
+				INFOPLIST_FILE = TaindFrameworkExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tainguyenduc.TaindFrameworkExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6E12AB523E6D16E009BE140 /* Build configuration list for PBXProject "TaindFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E12ACD23E6D16E009BE140 /* Debug */,
+				D6E12ACE23E6D16E009BE140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E12ACF23E6D16E009BE140 /* Build configuration list for PBXNativeTarget "TaindFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E12AD023E6D16E009BE140 /* Debug */,
+				D6E12AD123E6D16E009BE140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E12AD223E6D16E009BE140 /* Build configuration list for PBXNativeTarget "TaindFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E12AD323E6D16E009BE140 /* Debug */,
+				D6E12AD423E6D16E009BE140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E12AEA23E6D23B009BE140 /* Build configuration list for PBXNativeTarget "TaindFrameworkExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E12AEB23E6D23B009BE140 /* Debug */,
+				D6E12AEC23E6D23B009BE140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6E12AB223E6D16E009BE140 /* Project object */;
+}

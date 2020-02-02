@@ -1,0 +1,6 @@
+framework module Pods_TaindFramework_TaindFrameworkTests {
+  umbrella header "Pods-TaindFramework-TaindFrameworkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
