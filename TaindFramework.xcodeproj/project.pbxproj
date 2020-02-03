@@ -12,6 +12,7 @@
 		AFD6601FC08DA53340FCE648 /* Pods_TaindFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB9F8B1B94DBDFC6AB8226D /* Pods_TaindFramework.framework */; };
 		D64F28D223E734FA009AED2E /* TaindFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F28D123E734FA009AED2E /* TaindFramework.swift */; };
 		D64F28D323E734FA009AED2E /* TaindFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F28D123E734FA009AED2E /* TaindFramework.swift */; };
+		D659546023E8003E00A8FACD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E12ADF23E6D23A009BE140 /* ViewController.swift */; };
 		D6E12AC523E6D16E009BE140 /* TaindFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E12ABB23E6D16E009BE140 /* TaindFramework.framework */; };
 		D6E12ACA23E6D16E009BE140 /* TaindFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E12AC923E6D16E009BE140 /* TaindFrameworkTests.swift */; };
 		D6E12ACC23E6D16E009BE140 /* TaindFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E12ABE23E6D16E009BE140 /* TaindFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -416,6 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D659546023E8003E00A8FACD /* ViewController.swift in Sources */,
 				D64F28D223E734FA009AED2E /* TaindFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
