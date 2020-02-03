@@ -13,13 +13,16 @@
 		D64F28D223E734FA009AED2E /* TaindFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F28D123E734FA009AED2E /* TaindFramework.swift */; };
 		D64F28D323E734FA009AED2E /* TaindFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F28D123E734FA009AED2E /* TaindFramework.swift */; };
 		D659546023E8003E00A8FACD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E12ADF23E6D23A009BE140 /* ViewController.swift */; };
+		D659546123E8017F00A8FACD /* TaindFramework.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E12AE123E6D23A009BE140 /* TaindFramework.storyboard */; };
+		D659546223E8018900A8FACD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E12ADB23E6D23A009BE140 /* AppDelegate.swift */; };
+		D659546423E8019700A8FACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E12AE423E6D23B009BE140 /* Assets.xcassets */; };
+		D659546523E8019A00A8FACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E12AE623E6D23B009BE140 /* LaunchScreen.storyboard */; };
 		D6E12AC523E6D16E009BE140 /* TaindFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E12ABB23E6D16E009BE140 /* TaindFramework.framework */; };
 		D6E12ACA23E6D16E009BE140 /* TaindFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E12AC923E6D16E009BE140 /* TaindFrameworkTests.swift */; };
 		D6E12ACC23E6D16E009BE140 /* TaindFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E12ABE23E6D16E009BE140 /* TaindFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6E12ADC23E6D23A009BE140 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E12ADB23E6D23A009BE140 /* AppDelegate.swift */; };
-		D6E12ADE23E6D23A009BE140 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E12ADD23E6D23A009BE140 /* SceneDelegate.swift */; };
 		D6E12AE023E6D23A009BE140 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E12ADF23E6D23A009BE140 /* ViewController.swift */; };
-		D6E12AE323E6D23A009BE140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E12AE123E6D23A009BE140 /* Main.storyboard */; };
+		D6E12AE323E6D23A009BE140 /* TaindFramework.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E12AE123E6D23A009BE140 /* TaindFramework.storyboard */; };
 		D6E12AE523E6D23B009BE140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E12AE423E6D23B009BE140 /* Assets.xcassets */; };
 		D6E12AE823E6D23B009BE140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E12AE623E6D23B009BE140 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -52,9 +55,8 @@
 		D6E12ACB23E6D16E009BE140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6E12AD923E6D23A009BE140 /* TaindFrameworkExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaindFrameworkExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E12ADB23E6D23A009BE140 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D6E12ADD23E6D23A009BE140 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D6E12ADF23E6D23A009BE140 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D6E12AE223E6D23A009BE140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6E12AE223E6D23A009BE140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TaindFramework.storyboard; sourceTree = "<group>"; };
 		D6E12AE423E6D23B009BE140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6E12AE723E6D23B009BE140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6E12AE923E6D23B009BE140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -135,9 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				D6E12ADB23E6D23A009BE140 /* AppDelegate.swift */,
-				D6E12ADD23E6D23A009BE140 /* SceneDelegate.swift */,
 				D6E12ADF23E6D23A009BE140 /* ViewController.swift */,
-				D6E12AE123E6D23A009BE140 /* Main.storyboard */,
+				D6E12AE123E6D23A009BE140 /* TaindFramework.storyboard */,
 				D6E12AE423E6D23B009BE140 /* Assets.xcassets */,
 				D6E12AE623E6D23B009BE140 /* LaunchScreen.storyboard */,
 				D6E12AE923E6D23B009BE140 /* Info.plist */,
@@ -287,6 +288,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D659546523E8019A00A8FACD /* LaunchScreen.storyboard in Resources */,
+				D659546423E8019700A8FACD /* Assets.xcassets in Resources */,
+				D659546123E8017F00A8FACD /* TaindFramework.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +307,7 @@
 			files = (
 				D6E12AE823E6D23B009BE140 /* LaunchScreen.storyboard in Resources */,
 				D6E12AE523E6D23B009BE140 /* Assets.xcassets in Resources */,
-				D6E12AE323E6D23A009BE140 /* Main.storyboard in Resources */,
+				D6E12AE323E6D23A009BE140 /* TaindFramework.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D659546223E8018900A8FACD /* AppDelegate.swift in Sources */,
 				D659546023E8003E00A8FACD /* ViewController.swift in Sources */,
 				D64F28D223E734FA009AED2E /* TaindFramework.swift in Sources */,
 			);
@@ -437,7 +442,6 @@
 				D6E12AE023E6D23A009BE140 /* ViewController.swift in Sources */,
 				D64F28D323E734FA009AED2E /* TaindFramework.swift in Sources */,
 				D6E12ADC23E6D23A009BE140 /* AppDelegate.swift in Sources */,
-				D6E12ADE23E6D23A009BE140 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,12 +456,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D6E12AE123E6D23A009BE140 /* Main.storyboard */ = {
+		D6E12AE123E6D23A009BE140 /* TaindFramework.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D6E12AE223E6D23A009BE140 /* Base */,
 			);
-			name = Main.storyboard;
+			name = TaindFramework.storyboard;
 			sourceTree = "<group>";
 		};
 		D6E12AE623E6D23B009BE140 /* LaunchScreen.storyboard */ = {
