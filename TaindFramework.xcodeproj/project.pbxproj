@@ -18,6 +18,7 @@
 		D659546423E8019700A8FACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E12AE423E6D23B009BE140 /* Assets.xcassets */; };
 		D659546523E8019A00A8FACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E12AE623E6D23B009BE140 /* LaunchScreen.storyboard */; };
 		D659546E23E8077000A8FACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D659546D23E8077000A8FACD /* Main.storyboard */; };
+		D659547023E808FC00A8FACD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D659546F23E808FC00A8FACD /* ViewController.swift */; };
 		D6E12AC523E6D16E009BE140 /* TaindFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E12ABB23E6D16E009BE140 /* TaindFramework.framework */; };
 		D6E12ACA23E6D16E009BE140 /* TaindFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E12AC923E6D16E009BE140 /* TaindFrameworkTests.swift */; };
 		D6E12ACC23E6D16E009BE140 /* TaindFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E12ABE23E6D16E009BE140 /* TaindFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -49,6 +50,7 @@
 		BA0A5CA4D49A0693A9B043FD /* Pods-TaindFramework-TaindFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaindFramework-TaindFrameworkTests.release.xcconfig"; path = "Target Support Files/Pods-TaindFramework-TaindFrameworkTests/Pods-TaindFramework-TaindFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		D64F28D123E734FA009AED2E /* TaindFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaindFramework.swift; sourceTree = "<group>"; };
 		D659546D23E8077000A8FACD /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D659546F23E808FC00A8FACD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D6E12ABB23E6D16E009BE140 /* TaindFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TaindFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E12ABE23E6D16E009BE140 /* TaindFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaindFramework.h; sourceTree = "<group>"; };
 		D6E12ABF23E6D16E009BE140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				D6E12ABE23E6D16E009BE140 /* TaindFramework.h */,
 				D64F28D123E734FA009AED2E /* TaindFramework.swift */,
 				D659546D23E8077000A8FACD /* Main.storyboard */,
+				D659546F23E808FC00A8FACD /* ViewController.swift */,
 				D6E12ABF23E6D16E009BE140 /* Info.plist */,
 			);
 			path = TaindFramework;
@@ -427,6 +430,7 @@
 			files = (
 				D659546223E8018900A8FACD /* AppDelegate.swift in Sources */,
 				D659546023E8003E00A8FACD /* ViewController.swift in Sources */,
+				D659547023E808FC00A8FACD /* ViewController.swift in Sources */,
 				D64F28D223E734FA009AED2E /* TaindFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

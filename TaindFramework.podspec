@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "TaindFramework"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = <<-DESC
@@ -16,6 +16,6 @@ This CocoaPods library helps you perform calculation.
   spec.swift_version = "5.0"
 
   spec.source        = { :git => "https://github.com/shivaLegend/TaindFramework.git", :tag => "#{spec.version}" }
-  spec.source_files  = "TaindFramework/**/*.{h,m,swift}"
+  spec.source_files  = "TaindFramework/**/*.{h,m,swift,storyboard}"
 
 end
