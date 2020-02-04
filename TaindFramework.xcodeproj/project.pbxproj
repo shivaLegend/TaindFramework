@@ -119,6 +119,7 @@
 			children = (
 				D6E12ABE23E6D16E009BE140 /* TaindFramework.h */,
 				D64F28D123E734FA009AED2E /* TaindFramework.swift */,
+				D6E12AE123E6D23A009BE140 /* Main.storyboard */,
 				D6E12ABF23E6D16E009BE140 /* Info.plist */,
 			);
 			path = TaindFramework;
@@ -138,7 +139,6 @@
 			children = (
 				D6E12ADB23E6D23A009BE140 /* AppDelegate.swift */,
 				D6E12ADF23E6D23A009BE140 /* ViewController.swift */,
-				D6E12AE123E6D23A009BE140 /* Main.storyboard */,
 				D6E12AE423E6D23B009BE140 /* Assets.xcassets */,
 				D6E12AE623E6D23B009BE140 /* LaunchScreen.storyboard */,
 				D6E12AE923E6D23B009BE140 /* Info.plist */,
